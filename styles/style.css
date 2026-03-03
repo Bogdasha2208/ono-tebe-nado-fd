@@ -1,29 +1,26 @@
 
 header {
-  width: 1000px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 92px 52px 92px 50px;
   border: 1px solid #000;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   font-size: 18px;
+  font-weight: normal;
+  outline: 1px solid red;
 }
 
 .header_menu-list {
   justify-self: start;
   display: flex;
   list-style-type: circle;
-  gap: 13px;
-}
-
-.header_menu-item {
-  margin-left: 12px;
+  gap: 32px;
+  padding-bottom: 8px;
 }
 
 .header_menu-item_active {
   list-style: none;
-  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .header_logo-image {
@@ -34,12 +31,11 @@ header {
   max-width: 236px;
   line-height: 24px;
   justify-self: end;
-  text-align: left;
   list-style: none;
   font-style: normal;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  padding-bottom: 7px;
 }
 
  .cover {
@@ -48,7 +44,7 @@ header {
    position: relative;
    background-size: cover;
    background-position: center;
-   margin-top: 96px;
+
  }
 
  .overlay {
@@ -72,20 +68,20 @@ header {
 .aligned-text_left {
   position: absolute;
   display: block;
-  top: 165px;
+  top: 163px;
   left: 50px;
 }
 .aligned-text_center {
   position: absolute;
   display: block;
-  top: 300px;
+  top: 298px;
   left: 380px;
 }
 
 .aligned-text_right {
   position: absolute;
   display: block;
-  top: 435px;
+  top: 433px;
   right: 50px;
   margin-right: -0.3em;
 }
@@ -98,7 +94,8 @@ header {
   font-size: 22px;
   font-weight: normal;
   color: #fff;
-  word-spacing: 0.9em;
+  word-spacing: 0.85em;
+  padding-bottom: 3px;
 }
 .bet-button {
   position: absolute;
@@ -112,7 +109,7 @@ header {
   font-size: 22px;
   font-weight: 500;
   border: 1px solid #ffffff;
-  padding: 12px 32px;
+  padding: 13px 32px;
 }
 .lots {
   margin: 180px 24px 0px 24px;
@@ -161,16 +158,17 @@ text-decoration: underline;
 text-transform: uppercase;
 z-index: 1;
 color: #fff;
-padding: 48px 40px 0px 40px;
+padding: 46px 40px 0px 40px;
 }
 
 .card__text {
+text-decoration: none;
 font-size: 20px;
 font-weight: normal;
 z-index: 1;
 color: #fff;
-padding: 48px 40px;
-text-decoration: none;
+padding: 0 40px 51px 40px;
+line-height: 120%;
 }
 
 .card_type_film {
@@ -193,20 +191,22 @@ text-decoration: none;
  font-size: 20px;
  font-weight: normal;
  display: block;
- padding: 30px 40px;
+ padding: 29px 40px;
 }
 
 .about {
   height: 595px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 25px;
-  margin: 120px 24px 180px;
+  gap: 12px;
+  margin: 120px 24px 150px;
 }
 .about__column-logo {
   grid-column: 1;
   align-content: start;
   justify-items: center;
+  padding-right: 12px;
+  padding-top: 6px;
 }
 
 .about__logo {
@@ -228,7 +228,7 @@ text-decoration: none;
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
-  padding-top: 101px;
+  padding-top: 107px;
   padding-bottom: 92px;
 }
 .about__text {
@@ -240,11 +240,11 @@ flex-wrap: wrap;
 font-size: 20px;
 font-weight: normal;
 line-height: 24px;
+padding-top: 6px;
 }
 
 .footer {
   padding: 0px 50px 0px 50px;
-  height: 180px;
   font-size: 18px;
   display: flex;
   justify-content: space-between;
@@ -255,12 +255,14 @@ line-height: 24px;
   font-style: normal;
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 .footer__menu {
   font-style: normal;
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-left: 3px;
 }
 .footer__menu-list {
   list-style: none;
@@ -271,7 +273,7 @@ line-height: 24px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  width: 240px;
+  width: auto;
   gap: 48px;
 }
 
