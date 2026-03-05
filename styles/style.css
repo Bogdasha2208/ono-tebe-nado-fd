@@ -1,7 +1,6 @@
 
 .header {
   padding: 92px 52px 92px 50px;
-  border: 1px solid #000;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -144,15 +143,15 @@
 }
 
 .card_type_film {
-  background: url(../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background: url(../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 
 }
 .card_type_picture {
-  background: url(../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card {
@@ -169,6 +168,7 @@
   display: block;
   height: 100%;
   z-index: 1;
+  text-decoration: none;
 }
 
 .card__title {
@@ -258,7 +258,7 @@ padding-top: 6px;
 
 .address-block_footer {
 text-align: left;
-white-space: nowrap;
+max-width: 265px;
 }
 .footer__menu {
   font-style: normal;
